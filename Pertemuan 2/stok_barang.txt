@@ -1,0 +1,9 @@
+BRG001,Celana,50
+BRG002,Baju,20
+BRG003,Topi,15
+BRG004,Kemeja,75
+BRG005,Kacamata,300
+BRG006,Jas,500
+BRG007,Sendal,10
+BRG008,Sepatu,300
+BRG009,Gelang,80
