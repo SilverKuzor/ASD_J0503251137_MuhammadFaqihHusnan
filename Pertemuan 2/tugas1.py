@@ -1,3 +1,7 @@
+# TERKADANG DIRECTORY TIDAK TER SET OTOMATIS, ketik di terminal:
+# cd "Praktikum 2"
+# Agar data file yang kosong pun muncul
+
 # ==========================================================
 # TUGAS HANDS-ON MODUL 1
 # Studi Kasus: Sistem Stok Barang Kantin (Berbasis File .txt)
@@ -11,7 +15,7 @@
 # Konstanta nama file
 # -------------------------------
 # Nama file tempat menyimpan data stok barang
-NAMA_FILE = "stok_barang.txt"
+nama_file = "stok_barang.txt"
 
 
 # -------------------------------
@@ -216,7 +220,7 @@ def update_stok(stok_dict):
 def main():
 
     # Membaca data dari file saat program dimulai
-    stok_barang = baca_stok(NAMA_FILE)
+    stok_barang = baca_stok(nama_file)
 
     # Loop menu utama
     while True:
@@ -244,7 +248,7 @@ def main():
             update_stok(stok_barang)
 
         elif pilihan == "5":
-            simpan_stok(NAMA_FILE, stok_barang)
+            simpan_stok(nama_file, stok_barang)
             print("Data berhasil disimpan.")
 
         elif pilihan == "0":
