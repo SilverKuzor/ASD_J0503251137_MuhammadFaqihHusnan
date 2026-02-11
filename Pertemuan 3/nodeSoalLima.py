@@ -46,29 +46,6 @@ class LinkedList:
 
         self.head = prev  # Head baru adalah node terakhir
 
-    def delete_node(self, key):
-        temp = self.head
-
-        # Jika node yang mau dihapus adalah head
-        if temp and temp.data == key:
-            self.head = temp.next
-            temp = None
-            return
-
-        prev = None
-
-        # Cari node dengan key
-        while temp and temp.data != key:
-            prev = temp
-            temp = temp.next
-
-        # Jika key tidak ditemukan
-        if temp is None:
-            return
-
-        # Hapus node
-        prev.next = temp.next
-        temp = None
     
 ll = LinkedList()
 
