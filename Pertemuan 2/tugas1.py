@@ -1,7 +1,5 @@
-# TERKADANG DIRECTORY TIDAK TER SET OTOMATIS, ketik di terminal:
-# cd "Praktikum 2"
-# Agar data file yang kosong pun muncul
 
+# 
 # ==========================================================
 # TUGAS HANDS-ON MODUL 1
 # Studi Kasus: Sistem Stok Barang Kantin (Berbasis File .txt)
@@ -15,7 +13,7 @@
 # Konstanta nama file
 # -------------------------------
 # Nama file tempat menyimpan data stok barang
-nama_file = "stok_barang.txt"
+nama_file = "Pertemuan 2/stok_barang.txt"
 
 
 # -------------------------------
