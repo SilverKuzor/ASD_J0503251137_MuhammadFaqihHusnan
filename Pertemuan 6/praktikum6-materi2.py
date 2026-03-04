@@ -41,5 +41,7 @@ def insertion_sort(data):
         
     return data
 
+
+
 angka = [7,8,5,2,4,6]
 print("Hasil Sorting : ", insertion_sort(angka))

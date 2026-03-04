@@ -10,7 +10,7 @@
 #================================================
 
 def insertion_sort(data):
-    #Loop mulai dari dara ke 2 (index array ke 1)
+    #Loop mulai dari data ke 2 (index array ke 1)
     for i in range(1, len(data)):
         
         key = data[i] #simpan nilai yang disisipkan
