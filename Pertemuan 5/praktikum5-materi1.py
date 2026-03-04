@@ -1,5 +1,5 @@
 #================================================
-# Algoritma dan Struktur data Pertemuan 4
+# Algoritma dan Struktur data Pertemuan 5
 # Nama : Muhammad Faqih Husnan
 # NIM : J0403251137
 # Kelas : TPL B2
