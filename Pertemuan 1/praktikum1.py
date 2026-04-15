@@ -57,6 +57,7 @@ print(data_list)
 print("==== Jumlah record dalam List ====")
 print("Jumlah Record : ", len(data_list))
 
+
 print("==== Menampilkan Data Record Tertentu ====")
 print("Contoh record pertama :", data_list[0])  # Menampilkan record pertama'
 

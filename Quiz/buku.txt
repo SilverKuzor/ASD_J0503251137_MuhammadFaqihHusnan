@@ -1,0 +1,7 @@
+B001,"Tes",50000
+B002,"Cara memasak Sayur Asam",20000
+B003,"Rahasia Negara",15000
+B004,"CARA LOLOS SELEKSI TIMNAS",35000
+B005,"Jelly Potter: The Cookiedough",150000
+B006,"How To Learn Spanish",54000
+B007,"Kisah Hidup Rigga: Tragedi",60000
