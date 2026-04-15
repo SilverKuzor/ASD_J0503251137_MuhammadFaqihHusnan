@@ -17,7 +17,7 @@ class Node:
         self.left = None #child kiri
         self.right = None #child kanan
         
-#Funsi preorder : left ==> root ==> right
+#Funsi preorder : left ==> root ==> right2
 def preorder(node):
     if node is not None:
         print(node.data, end=" ")
