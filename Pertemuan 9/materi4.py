@@ -39,3 +39,12 @@ root.right.right = Node("F")
 
 print("Hasil traversal inorder: ")
 inorder(root)
+
+#penjelasan:
+# Kelas Node masih sama seperti sebelumnya, digunakan untuk membentuk struktur dasar node pada tree.
+
+# Fungsi inorder digunakan untuk traversal dengan urutan mengunjungi child kiri terlebih dahulu, lalu node saat ini, dan terakhir child kanan secara rekursif.
+
+# Tree dibuat dengan root "A", memiliki child "B" dan "C", serta node "B" memiliki anak "D" di kiri dan "E" di kanan.
+
+# Kemudian fungsi inorder dijalankan dengan root sebagai parameter, sehingga menghasilkan urutan D B E A C sesuai aturan inorder.

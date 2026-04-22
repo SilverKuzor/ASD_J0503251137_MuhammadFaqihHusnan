@@ -25,5 +25,11 @@ print("Data pada root ", root.data)
 print("Data child kiri root ", root.left)
 print("Data child kanan root ", root.right)
 
-#Pembahasan : .................
-    
+#Pembahasan : ................
+# Kelas Node digunakan untuk membentuk struktur dasar node pada tree, yang memiliki data serta referensi ke anak kiri dan kanan.
+
+# Konstruktor init berfungsi untuk menginisialisasi node saat dibuat, dengan mengisi nilai data dan mengatur left serta right menjadi None.
+
+# Root dibuat dengan nilai "A" sebagai titik awal dari tree.
+
+# Program kemudian menampilkan data pada root beserta anak kiri dan kanan. Karena belum ada penambahan node, keduanya masih bernilai None.

@@ -42,4 +42,11 @@ print("Hasil traversal preorder: ")
 preorder(root)
 
 #Penjelasan : 
-        
+# Kelas Node masih sama seperti sebelumnya, digunakan untuk membentuk struktur dasar node pada tree.
+
+# Fungsi preorder digunakan untuk melakukan traversal dengan urutan mengunjungi node saat ini terlebih dahulu, lalu ke child kiri, dan terakhir ke child kanan secara rekursif.
+
+# Tree dibuat dengan root "A", kemudian memiliki child "B" dan "C", serta node "B" memiliki anak "D" di kiri dan "E" di kanan.
+
+# Selanjutnya fungsi preorder dijalankan dengan root sebagai parameter, sehingga menghasilkan urutan kunjungan A B D E C sesuai aturan preorder.
+       

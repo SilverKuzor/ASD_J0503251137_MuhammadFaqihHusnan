@@ -42,4 +42,12 @@ print("Hasil traversal postorder: ")
 postorder(root)
 
 #Penjelasan : 
+# Kelas Node masih sama seperti sebelumnya, digunakan untuk membentuk struktur dasar node pada tree.
+
+# Fungsi postorder digunakan untuk traversal dengan urutan mengunjungi child kiri terlebih dahulu, lalu child kanan, dan terakhir node saat ini secara rekursif.
+
+# Tree dibuat dengan root "A", memiliki child "B" dan "C", serta node "B" memiliki anak "D" di kiri dan "E" di kanan.
+
+# Kemudian fungsi postorder dijalankan dengan root sebagai parameter, sehingga menghasilkan urutan D E B C A sesuai aturan postorder.
+
         

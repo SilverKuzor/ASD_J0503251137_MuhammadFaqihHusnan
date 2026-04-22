@@ -46,4 +46,12 @@ print("Struktur oranisasi (Preorder)")
 preorder(root)
 
 #Penjelasan : 
+# Kelas Node masih sama seperti sebelumnya, digunakan untuk membentuk struktur dasar node pada tree.
+
+# Fungsi preorder digunakan untuk traversal dengan urutan mengunjungi node terlebih dahulu, lalu child kiri, dan terakhir child kanan secara rekursif.
+
+# Tree dibuat untuk menggambarkan struktur organisasi, dengan root "Direktur", memiliki child "Manajer A" dan "Manajer B". "Manajer A" memiliki dua child yaitu "Staff1" dan "Staff2", sedangkan "Manajer B" memiliki satu child yaitu "Staff3".
+
+# Kemudian fungsi preorder dijalankan dengan root sebagai parameter untuk menampilkan urutan traversal sesuai aturan preorder.
+
         

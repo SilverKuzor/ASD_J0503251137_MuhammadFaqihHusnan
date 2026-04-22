@@ -36,3 +36,14 @@ print("Data child kanan root ", root.right.data)
 print("Data child kiri dari b ", root.left.left.data)
 print("Data child kanan dari b ", root.left.right.data)
 print("Data child kanan dari C ", root.right.right.data)
+
+# Penjelasan :
+# Kelas Node masih sama seperti sebelumnya, digunakan untuk mendefinisikan struktur dasar node pada tree.
+
+# Root dibuat dengan nilai "A" sebagai awal dari tree.
+
+# Selanjutnya ditambahkan child level 1, yaitu "B" sebagai anak kiri dan "C" sebagai anak kanan dari root.
+
+# Kemudian dibuat child level 2, di mana node "B" memiliki anak "D" di kiri dan "E" di kanan, sedangkan node "C" memiliki anak "F" di kiri dan "G" di kanan.
+
+# Terakhir, program menampilkan data pada root beserta child kiri dan kanan.
